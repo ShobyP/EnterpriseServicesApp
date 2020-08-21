@@ -18,17 +18,34 @@ const Home = () => {
                                     <a href="" className="my-3 btn btn-outline-info"> Learn More </a>
                                 </div>
                                 </div>
-                                <div className="col-lg-6 order-1 order-lg-2 header-img">
-                                    <img src={web} className="figure-img img-fluid rounded" alt="home img"/>
+                            <div className="container">
+                                <div className="avatar">
+                                    <a href="https://codepen.io/MarioDesigns/">
+                                        <img src={web} alt="home img" className="navbar-nav ml-auto"/>
+                                    </a>
                                 </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-
         </section>
     </>)
 }
 
 export default Home;
 
+
+/*
+*
+*
+* <div class="container">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/">
+			<img src={web} alt="home img" />
+		</a>
+	</div>
+	</div>
+*
+* */
