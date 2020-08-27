@@ -1,10 +1,15 @@
 import React from 'react';
+import Common from "./Common";
+import butterFly from "../images/butterfly.svg";
 
 const Services = () => {
     return (<>
-        <h1>
-            this is Service page.
-    </h1>
+        <Common
+            headerMsg={"At your service is the hovering "}
+            strongName={"butterfly."}
+            btnName={"Know More"}
+            img={butterFly}
+        />
     </>)
 }
 
