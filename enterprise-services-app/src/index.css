@@ -15,6 +15,7 @@
 .navbar-brand {
   font-size: 1.9rem !important;
   color: #ff707a !important;
+  padding-left: inherit;
 }
 
 .navbar a {
@@ -40,6 +41,10 @@
     border-bottom: none;
   }
 
+}
+
+.resume {
+  padding-left: 2px;
 }
 
 

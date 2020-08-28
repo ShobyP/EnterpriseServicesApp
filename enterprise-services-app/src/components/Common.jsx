@@ -3,9 +3,9 @@ import {NavLink} from 'react-router-dom';
 
 export default class Common extends Component {
     render() {
-        const {headerMsg, subMsg, strongName, btnName, btnLink ,img, imgWidth} = this.props;
+        const {headerMsg, subMsg, strongName, btnName, btnLink ,img} = this.props;
         return (<>
-            <section id="header" className="d-flex align-items-center" >
+            <section id="header" className="d-flex align-items-center pt-lg-5" >
                 <div className="container-fluid">
                     <div>
                         <div className="col-10 mx-auto">

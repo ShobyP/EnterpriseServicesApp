@@ -11,9 +11,9 @@ export default class About extends Component {
             <Common
                 headerMsg={"but what about this fancy "}
                 strongName={"flamingo?"}
-                btnName={"Know More"}
+                btnName={"Looking for resume?"}
                 img={flamingo}
-                btnLink={"/"}
+                btnLink={"/resume"}
             />
         </>)
     }

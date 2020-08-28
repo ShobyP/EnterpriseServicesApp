@@ -10,10 +10,10 @@ const Navbar = () => {
   const about = "/about";
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid fixed-top sticky-top">
         <div className='row'>
           <div className="col-10 mx-auto">
-      <nav className="navbar navbar-light navbar-expand-lg navbar-light">
+      <nav className="navbar sticky-top navbar-light navbar-expand-lg navbar-light">
         <NavLink exact className="navbar-brand" to="/">LlamaTheNerd</NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,18 +37,6 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink exact activeClassName="menu_active" className="nav-link" to={about}>About</NavLink>
             </li>
-            {/*<li className="nav-item dropdown">*/}
-            {/*  <a className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown"*/}
-            {/*     aria-haspopup="true" aria-expanded="false">*/}
-            {/*    Dropdown*/}
-            {/*  </a>*/}
-            {/*  <div className="dropdown-menu" aria-labelledby="navbarDropdown">*/}
-            {/*    <a className="dropdown-item" to="#">Action</a>*/}
-            {/*    <a className="dropdown-item" to="#">Another action</a>*/}
-            {/*    <div className="dropdown-divider"></div>*/}
-            {/*    <a className="dropdown-item" to="#">Something else here</a>*/}
-            {/*  </div>*/}
-            {/*</li>*/}
           </ul>
         </div>
       </nav>

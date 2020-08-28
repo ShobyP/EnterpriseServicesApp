@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 const Home = () => {
     return (<>
-        <section id="header" className="d-flex align-items-center">
+        <section id="header" className="d-flex align-items-center pt-lg-5">
             <div className="container-fluid">
                 <div className='row'>
                     <div className="col-10 mx-auto">
@@ -32,20 +32,6 @@ const Home = () => {
             </div>
         </section>
     </>)
-}
+};
 
 export default Home;
-
-
-/*
-*
-*
-* <div class="container">
-	<div class="avatar">
-		<a href="https://codepen.io/MarioDesigns/">
-			<img src={web} alt="home img" />
-		</a>
-	</div>
-	</div>
-*
-* */
