@@ -1,10 +1,16 @@
 import React from 'react';
+import cuteLlama from '../images/cute-llama.jpg';
+import Common from './Common';
 
 const Contact = () => {
     return (<>
-        <h1>
-            this is Contract page.
-    </h1>
+        <Common
+          headerMsg={"Talk to this colorful "}
+          strongName={"llama."}
+          btnName={"Back to Home"}
+          btnLink={"/"}
+          img={cuteLlama}
+        />
     </>)
 }
 

@@ -8,6 +8,7 @@ const Services = () => {
             headerMsg={"At your service is the hovering "}
             strongName={"butterfly."}
             btnName={"Know More"}
+            btnLink={"/about"}
             img={butterFly}
         />
     </>)

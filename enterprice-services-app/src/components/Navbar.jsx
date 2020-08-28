@@ -3,13 +3,14 @@ import {NavLink} from 'react-router-dom';
 import '../index.css';
 
 const Navbar = () => {
+  const home = '/home';
   const projects = "/projects";
   const services = "/services";
   const contact = "/contact";
   const about = "/about";
   return (
     <>
-      <div className="container-fluid nav_bg">
+      <div className="container-fluid">
         <div className='row'>
           <div className="col-10 mx-auto">
       <nav className="navbar navbar-light navbar-expand-lg navbar-light">
@@ -21,6 +22,9 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <NavLink exact activeClassName="menu_active" className="nav-link" to={home}>Home</NavLink>
+            </li>
             <li className="nav-item">
               <NavLink exact activeClassName="menu_active" className="nav-link" to={projects}>Projects</NavLink>
             </li>

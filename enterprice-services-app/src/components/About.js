@@ -13,6 +13,7 @@ export default class About extends Component {
                 strongName={"flamingo?"}
                 btnName={"Know More"}
                 img={flamingo}
+                btnLink={"/"}
             />
         </>)
     }

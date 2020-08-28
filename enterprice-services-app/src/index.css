@@ -67,10 +67,11 @@
   justify-content: center;
   align-items: flex-end;
 }
-.flamingo {
-  width: 300px;
-}
 
 .avatar {
   animation: float 6s ease-in-out infinite;
+  position: fixed;
+  right: 145px;
+  margin-top: 50px;
+  max-width: 450px;
 }

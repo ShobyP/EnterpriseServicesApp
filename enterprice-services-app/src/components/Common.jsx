@@ -3,11 +3,11 @@ import {NavLink} from 'react-router-dom';
 
 export default class Common extends Component {
     render() {
-        const {headerMsg, subMsg, strongName, btnName, img, imgWidth} = this.props;
+        const {headerMsg, subMsg, strongName, btnName, btnLink ,img, imgWidth} = this.props;
         return (<>
-            <section id="header" className="d-flex align-items-center">
-                <div className="container-fluid nav_bg">
-                    <div className='row'>
+            <section id="header" className="d-flex align-items-center" >
+                <div className="container-fluid">
+                    <div>
                         <div className="col-10 mx-auto">
                             <div className="row">
                                 <div
@@ -17,13 +17,13 @@ export default class Common extends Component {
                                     </h1>
                                     <h4 className="my-lg-5"><strong> Shoaib </strong>(Team Jigsaw)</h4>
                                     <div className="my-lg-5">
-                                        <NavLink to="/services" className="my-3 btn btn-outline-info">{btnName}</NavLink>
+                                        <NavLink to={btnLink} className="my-3 btn btn-outline-info">{btnName}</NavLink>
                                     </div>
                                 </div>
                                 <div className="container">
                                     <div className="avatar">
-                                        <NavLink to="/about">
-                                            <div className={imgWidth}>
+                                        <NavLink to="/home">
+                                            <div>
                                             <img src={img} alt="home img" className="navbar-nav ml-auto img-thumbnail border-0" />
                                             </div>
                                         </NavLink>
