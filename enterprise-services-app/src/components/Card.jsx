@@ -10,7 +10,7 @@ export default class Card extends Component {
       <>
         <div className='col-md-4 col-10 mx-auto gy-5'>
           <div className="card border-0" style={{width: '18rem'}}>
-            <img src={img} className="card-img-top img-fluid" alt="base"/>
+            <img src={img} className="card-img-top img-fluid" style={{maxWidth: '400px'}} alt="base"/>
             <div className="card-body">
               <h5 className="card-title">{cardTitle}</h5>
               <p className="card-text">{cardText}</p>
