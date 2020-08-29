@@ -23,6 +23,11 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/gitDataScience" render={() => (window.location = "https://github.com/ShobyP/Portfolio")} />
+        <Route exact path="/gitEnterpriseApp" render={() => (window.location = "https://github.com/ShobyP/EnterpriseServicesApp")} />
+        <Route exact path="/gitProjectManagementTool" render={() => (window.location = "https://github.com/ShobyP/ProjectManagementTool")} />
+        <Route exact path="/gitTestingWithReact" render={() => (window.location = "https://github.com/ShobyP/testing_with_react")} />
+        <Route exact path="/gitOtherRepositories" render={() => (window.location = "https://github.com/ShobyP?tab=repositories")} />
         <Redirect to="/" />
       </Switch>
     </>

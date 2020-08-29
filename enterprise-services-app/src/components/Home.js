@@ -15,7 +15,7 @@ const Home = () => {
                                 </h1>
                                 <h4 className="my-lg-5" ><strong> Shoaib </strong>(Team Jigsaw)</h4>
                                 <div className="my-lg-5">
-                                    <NavLink to="/services" className="my-3 btn btn-outline-info"> Learn More </NavLink>
+                                    <NavLink to="/projects" className="my-3 btn btn-outline-info"> Learn More </NavLink>
                                 </div>
                                 </div>
                             <div className="container">
@@ -26,7 +26,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

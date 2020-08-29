@@ -8,55 +8,55 @@ import llamaRibbonBow from '../images/Llama-face/SVG/ribbon.svg'
 const ProjectCardsData = [
   {
     img: cutellama,
-    cardTitle :"Project Narnia",
-    cardText : "This is a portal to Narnia.",
-    listItem1: "Simple and realistic abyss",
-    listItem2: "Lots of talking animals",
-    listItem3: "Free magic show included",
-    cardLink1: "/about",
+    cardTitle :"AI/ML Projects",
+    cardText : "Host of Data Science Projects",
+    listItem1: "Projects in Python covering:",
+    listItem2: "CV/RV, KNN, IR, Predictions,",
+    listItem3: "Rec Systems and many more.",
+    cardLink1: "/gitDataScience",
     cardLink2: "/home"
   },
 
   {
     img: llamaHeartGlasses,
-    cardTitle :"Project Jumanji",
-    cardText : "Be careful with this one",
-    listItem1: "Dangerous but realistic abyss",
-    listItem2: "Unpredictable physics",
-    listItem3: "Comes with three extra lives",
-    cardLink1: "/about",
+    cardTitle :"Portfolio Application",
+    cardText : "Used as my projects directory.",
+    listItem1: "Front End Application based on:",
+    listItem2: "JS, React, Redux,",
+    listItem3: "Bootstrap, etc",
+    cardLink1: "/gitEnterpriseApp",
     cardLink2: "/home"
   },
 
   {
     img: llamaGlasses,
-    cardTitle :"Project 007",
-    cardText : "Play as James llama",
-    listItem1: "Cool cars? Check!",
-    listItem2: "Perfectly tailored suit? Check!",
-    listItem3: "Evil villain with shark tank? Check!",
-    cardLink1: "/about",
+    cardTitle :"ProMan Application",
+    cardText : "Project Tasks Management App",
+    listItem1: "Full Stack Application based on:",
+    listItem2: "JS, React, Redux, Bootstrap,",
+    listItem3: "Java, SpringBoot, mySQL, H2",
+    cardLink1: "/gitProjectManagementTool",
     cardLink2: "/home"
   },
   {
     img: llama,
-    cardTitle :"Project Narnia",
-    cardText : "This is a portal to Narnia.",
-    listItem1: "Simple and realistic abyss",
-    listItem2: "Lots of talking animals",
-    listItem3: "Free magic show included",
-    cardLink1: "/about",
+    cardTitle :"TDD with React",
+    cardText : "Highlights TDD practices.",
+    listItem1: "Simple Front End Application",
+    listItem2: "JS, React, Redux",
+    listItem3: "Enzyme, mocha",
+    cardLink1: "/gitTestingWithReact",
     cardLink2: "/home"
   },
 
   {
     img: llamaRibbonBow,
-    cardTitle :"Project Jumanji",
-    cardText : "Be careful with this one",
-    listItem1: "Dangerous but realistic abyss",
-    listItem2: "Unpredictable physics",
-    listItem3: "Comes with three extra lives",
-    cardLink1: "/about",
+    cardTitle :"Full Repository Directory",
+    cardText : "Want to see more?",
+    listItem1: "See my full repository",
+    listItem2: "by clicking the button",
+    listItem3: "below.",
+    cardLink1: "/gitOtherRepositories",
     cardLink2: "/home"
   },
 
@@ -67,39 +67,7 @@ const ProjectCardsData = [
     listItem1: "Cool cars? Check!",
     listItem2: "Perfectly tailored suit? Check!",
     listItem3: "Evil villain with shark tank? Check!",
-    cardLink1: "/about",
-    cardLink2: "/home"
-  },
-  {
-    img: cutellama,
-    cardTitle :"Project Narnia",
-    cardText : "This is a portal to Narnia.",
-    listItem1: "Simple and realistic abyss",
-    listItem2: "Lots of talking animals",
-    listItem3: "Free magic show included",
-    cardLink1: "/about",
-    cardLink2: "/home"
-  },
-
-  {
-    img: llamaOpenGlasses,
-    cardTitle :"Project Jumanji",
-    cardText : "Be careful with this one",
-    listItem1: "Dangerous but realistic abyss",
-    listItem2: "Unpredictable physics",
-    listItem3: "Comes with three extra lives",
-    cardLink1: "/about",
-    cardLink2: "/home"
-  },
-
-  {
-    img: llamaRibbonBow,
-    cardTitle :"Project 007",
-    cardText : "Play as James llama",
-    listItem1: "Cool cars? Check!",
-    listItem2: "Perfectly tailored suit? Check!",
-    listItem3: "Evil villain with shark tank? Check!",
-    cardLink1: "/about",
+    cardLink1: "/resume",
     cardLink2: "/home"
   }
 

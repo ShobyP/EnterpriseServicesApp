@@ -21,8 +21,8 @@ export default class Card extends Component {
               <li className="list-group-item">{listItem3}</li>
             </ul>
             <div className="card-body row-cols-sm-1">
-              <NavLink to={cardLink1} className="my-3 btn btn-outline-info">Card link</NavLink>
-              <NavLink to={cardLink2} className="my-3 btn btn-outline-info">Another link</NavLink>
+              <NavLink to={cardLink1} className="my-3 btn btn-outline-info">Code Repository link</NavLink>
+              <NavLink to={cardLink2} className="my-3 btn btn-outline-info">Back to Homepage</NavLink>
             </div>
           </div>
         </div>

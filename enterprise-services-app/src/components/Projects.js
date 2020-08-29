@@ -4,10 +4,7 @@ import ProjectCardsData from '../data/ProjectCardsData';
 
 export default class Projects extends Component {
 
-
-
     render() {
-
         return (<>
             <div className="my-5 pt-lg-5">
                 <h1 className="text-center navbar-brand">
