@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca122110-f98b-42c0-81b0-b510c98f1982" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/enterprise-services-app/src/images/resume.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-services-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/enterprise-services-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-services-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/enterprise-services-app/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-services-app/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/enterprise-services-app/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-services-app/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/enterprise-services-app/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-services-app/src/components/Resume.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/enterprise-services-app/src/components/Resume.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-services-app/src/images/ResumePNG.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +36,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>form</find>
-      <find>link</find>
-      <find>ml</find>
-      <find>navbar</find>
-      <find>home</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +75,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -109,6 +118,9 @@
       <workItem from="1598019573113" duration="6823000" />
       <workItem from="1598656440888" duration="5001000" />
       <workItem from="1598673850133" duration="7000" />
+      <workItem from="1599360811197" duration="37000" />
+      <workItem from="1599360861393" duration="103000" />
+      <workItem from="1599362569980" duration="677000" />
     </task>
     <servers />
   </component>
@@ -132,6 +144,10 @@
       <screen x="0" y="30" width="2560" height="1356" />
     </state>
     <state x="1063" y="466" width="424" height="491" key="FileChooserDialogImpl/0.30.2560.1356@0.30.2560.1356" timestamp="1598673856635" />
+    <state x="971" y="447" width="1075" height="747" key="find.popup" timestamp="1599362894900">
+      <screen x="0" y="30" width="2560" height="1356" />
+    </state>
+    <state x="971" y="447" width="1075" height="747" key="find.popup/0.30.2560.1356@0.30.2560.1356" timestamp="1599362894900" />
   </component>
   <component name="masterDetails">
     <states>

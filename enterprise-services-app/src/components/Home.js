@@ -13,7 +13,8 @@ const Home = () => {
                                 <h1 className="my-lg-5 ">
                                     Home is where the <strong style={{color: '#ff707a'}}> heart </strong> is...
                                 </h1>
-                                <h4 className="my-lg-5" ><strong> Shoaib </strong>(Team Jigsaw)</h4>
+                                <h4 className="my-lg-5" >Fun and Cozy demonstration of my portfolio projects.</h4>
+                                <h4 className="my-lg-5" ><strong> ...Shoaib </strong>(Team Jigsaw)</h4>
                                 <div className="my-lg-5">
                                     <NavLink to="/projects" className="my-3 btn btn-outline-info"> Learn More </NavLink>
                                 </div>

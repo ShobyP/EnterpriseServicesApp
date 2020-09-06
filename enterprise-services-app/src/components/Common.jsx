@@ -15,7 +15,7 @@ export default class Common extends Component {
                                     <h1 className="my-lg-5 ">
                                         {headerMsg} <strong style={{color: '#ff707a'}}> {strongName} </strong> {subMsg}
                                     </h1>
-                                    <h4 className="my-lg-5"><strong> Shoaib </strong>(Team Jigsaw)</h4>
+                                    <h4 className="my-lg-5"><strong> ...Shoaib </strong>(Team Jigsaw)</h4>
                                     <div className="my-lg-5">
                                         <NavLink to={btnLink} className="my-3 btn btn-outline-info">{btnName}</NavLink>
                                     </div>
